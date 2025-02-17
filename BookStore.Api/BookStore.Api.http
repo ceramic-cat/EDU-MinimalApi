@@ -1,0 +1,42 @@
+@BookStore.Api_HostAddress = https://localhost:7088
+
+POST {{BookStore.Api_HostAddress}}/books
+Content-Type: application/json
+
+{
+  "id":2,
+  "title": "book 2",
+  "author": "author 2"
+}
+
+###
+
+
+GET {{BookStore.Api_HostAddress}}/books
+
+###
+
+@id=1
+GET {{BookStore.Api_HostAddress}}/books/{{id}}
+
+###
+
+POST {{BookStore.Api_HostAddress}}/books
+Content-Type: application/json
+
+{
+  //Book
+}
+
+###
+
+@author=author 2
+GET {{BookStore.Api_HostAddress}}/books/author/{{author}}
+
+###
+
+
+@id = 1
+DELETE {{BookStore.Api_HostAddress}}/books/{{id}}
+
+###
