@@ -37,10 +37,9 @@ app.MapGet("/books/author/{author}", async (string author, BookStoreDb db) =>
     .Where(b => b.Author.Equals(author, StringComparison.OrdinalIgnoreCase))
     .ToListAsync();
 
-    return matchingBooks.Any() ? Results.Ok(matchingBooks) : Results.NotFound("No books found by that author.");
+    return matchingBooks.Any() ? Results.Ok( matchingBooks) : Results.NotFound("No books found by that author.");
 }
     );
-
 
 // Post all
 app.MapPost("/books", async (Book book, BookStoreDb db) =>
@@ -69,12 +68,24 @@ app.MapPut("/books/{id}", async (int id, Book inputBook, BookStoreDb db) =>
 });
 
 // Patch review matching id
-app.MapPatch("/books/{id}", async (int id, string review, BookStoreDb db) =>
+app.MapPatch("/books/{id}/review", async (int id, string review, BookStoreDb db) =>
 {
     var book = await db.Books.FindAsync(id);
-    if (book is null) return Results.NotFound();
+    if (book is null) return Results.NotFound("Invalid id");
 
     book.Review = review;
+    await db.SaveChangesAsync();
+
+    return Results.Accepted();
+
+});
+// Patch description matching id
+app.MapPatch("/books/{id}/description", async (int id, string description, BookStoreDb db) =>
+{
+    var book = await db.Books.FindAsync(id);
+    if (book is null) return Results.NotFound("Invalid id");
+
+    book.Description = description;
     await db.SaveChangesAsync();
 
     return Results.Accepted();
