@@ -51,6 +51,7 @@ app.MapPost("/books", async (Book book, BookStoreDb db) =>
     return Results.Created($"/books/{book.Id}", book);
 });
 
+// Post matching id
 app.MapPut("/books/{id}", async (int id, Book inputBook, BookStoreDb db) =>
 {
     var book = await db.Books.FindAsync(id);
@@ -67,6 +68,22 @@ app.MapPut("/books/{id}", async (int id, Book inputBook, BookStoreDb db) =>
     return Results.NoContent();
 });
 
+// Patch review matching id
+app.MapPatch("/books/{id}", async (int id, string review, BookStoreDb db) =>
+{
+    var book = await db.Books.FindAsync(id);
+    if (book is null) return Results.NotFound();
+
+    book.Review = review;
+    await db.SaveChangesAsync();
+
+    return Results.Accepted();
+
+});
+
+
+
+// Delete matching id
 app.MapDelete("/books/{id}", async (int id, BookStoreDb db) =>
 {
     if (await db.Books.FindAsync(id) is Book book)
