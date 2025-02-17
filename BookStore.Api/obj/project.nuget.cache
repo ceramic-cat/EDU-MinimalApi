@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cr3f+ENYUj8=",
+  "dgSpecHash": "rxTkVSWrnps=",
   "success": true,
-  "projectFilePath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\BookStore.Api\\BookStore.Api.csproj",
+  "projectFilePath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\BookStore.Api\\BookStore.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\biokh\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.13\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.13.nupkg.sha512",
     "C:\\Users\\biokh\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.13\\microsoft.aspnetcore.openapi.8.0.13.nupkg.sha512",

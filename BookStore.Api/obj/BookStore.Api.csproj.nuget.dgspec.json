@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\BookStore.Api\\BookStore.Api.csproj": {}
+    "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\BookStore.Api\\BookStore.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\BookStore.Api\\BookStore.Api.csproj": {
+    "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\BookStore.Api\\BookStore.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\BookStore.Api\\BookStore.Api.csproj",
+        "projectUniqueName": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\BookStore.Api\\BookStore.Api.csproj",
         "projectName": "BookStore.Api",
-        "projectPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\BookStore.Api\\BookStore.Api.csproj",
+        "projectPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\BookStore.Api\\BookStore.Api.csproj",
         "packagesPath": "C:\\Users\\biokh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\BookStore.Api\\obj\\",
+        "outputPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\BookStore.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\Library\\Library\\BookStore.Lib.csproj": {
-                "projectPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\Library\\Library\\BookStore.Lib.csproj"
+              "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\Library\\Library\\BookStore.Lib.csproj": {
+                "projectPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\Library\\Library\\BookStore.Lib.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\Library\\Library\\BookStore.Lib.csproj": {
+    "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\Library\\Library\\BookStore.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\Library\\Library\\BookStore.Lib.csproj",
+        "projectUniqueName": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\Library\\Library\\BookStore.Lib.csproj",
         "projectName": "BookStore.Lib",
-        "projectPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\Library\\Library\\BookStore.Lib.csproj",
+        "projectPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\Library\\Library\\BookStore.Lib.csproj",
         "packagesPath": "C:\\Users\\biokh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi-Bookstore\\Library\\Library\\obj\\",
+        "outputPath": "C:\\Users\\biokh\\Documents\\Repos\\Programmering Fördjupning\\HTTP\\MinimalApi\\Library\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
